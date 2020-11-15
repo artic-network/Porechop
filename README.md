@@ -8,15 +8,15 @@ This option specifies that the ONT native barcodes are being used and only looks
 
 If both these options are used then it doesn't look for middle adapters for reads that were unassigned a barcode (as it will be throwing these away anyway).
 
-> --barcode_headers
+> --barcode_labels
 
 This option writes the barcode calls to the header of the output fastq. 
 
-> --extended_headers
+> --extended_labels
 
 This option also writes the barcode call for both ends of the read and the similarity scores for these matches
 
-> --csv
+> --barcode_stats_csv
 
 Writes a CSV file with one row per read giving the barcode call information
 
